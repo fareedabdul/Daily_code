@@ -63,7 +63,7 @@
 
 # input1 = int(input("Enter the birth year :"))
 # current_year = 2025
-# age = input1 - current_year
+# age = current_year - input1 
 # print(f"You are {age} years old and born on {input1}")
 
 # input1 = input("Enter something: ")
@@ -71,5 +71,40 @@
 # if type(input1) == str:
 #     print("Your Input is a int")
 # else:
-#     print("Your input is not a int")
-        
+#     print("Your input is not a int")  
+
+
+# x = 10.5;
+
+# print(type(x))
+# print(x)
+
+
+# True 
+# print(type(True))
+
+# num1 = int(input("Enter the first number :"))
+# num2 = int(input("Enter the second number :"))
+
+# if num1 > num2:
+#     print("The largest number is", num1)
+# elif num2 > num1:
+#     print("the largest number is",num2)
+# else:
+#     print("Both are equal")
+
+
+# marks = int(input("Enter the Marks"))
+# if marks < 35:
+#     print("Failed")
+# elif marks > 35:
+#     print("passed")
+# else:
+#     print("Absent")
+
+# input1 = int(input("Enter the number :"))
+
+# if input1 % 2 == 0:
+#     print("its an even")
+# else:
+#     print("its a odd")
