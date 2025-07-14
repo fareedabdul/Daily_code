@@ -1,6 +1,6 @@
 
 # Sample project on marks of a student Grading
-input1 = input("Enter your name :")
+input1 = input("Enter your name:")
 
 mark1 = int(input("enter the Mark1: "))
 mark2 = int(input("enter the Mark2: "))
@@ -21,4 +21,4 @@ elif 35 <= calculate_avg <= 59:
 elif calculate_avg < 35:
     print("Fail")
 else:
-    print("Please enter your number")
+    print("Please enter your number: ")
