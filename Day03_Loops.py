@@ -74,3 +74,28 @@
 # for i in range(1, n+1):
 #     total = total + i
 #     print(f"1 se {n} tak pura milakar {total}")
+
+
+# ------------------------------------
+# 8.Break 
+# --------------------------------------
+for i in range(1, 25):
+    if i == 16:
+        print("Founded it at",i)
+        break
+    print("Checking Drawer", i)
+
+
+    	# Stop loop immediately
+    
+
+# ------------------------------------
+# 9.Continue
+# --------------------------------------
+for i in range(1, 25):
+    if i == 16:
+        print("Founded it at",i)
+        continue
+    print("Checking Drawer", i)
+
+    # Skip one iteration only	Jumps to next cycle
