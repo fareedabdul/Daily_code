@@ -87,3 +87,34 @@ while: condition Run until the condition becomes False
 while True:	Run forever (unless you break it manually)
 break:	Stop the loop completely
 continue:	Skip current loop step and go to the next
+
+------------------------------------------------------------------------------------
+
+BREAK and CONTINUE
+break: Stops the loop completely
+🧠 “I’ll stop eating when I find a hair in food.”
+
+for item in food:
+    if item == "hair":
+        break
+    print("Eating", item)
+
+
+---------------------------------------------------------------------------------------------
+
+continue: Skips only that turn
+🧠 “I’ll skip spicy food but eat the rest.”
+
+python
+Copy code
+for item in food:
+    if item == "spicy":
+        continue
+    print("Eating", item)
+
+
+
+    -----------------------------------------------------------------------------------------------------
+
+
+    ************************************************END***************************************************
