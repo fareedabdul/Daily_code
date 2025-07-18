@@ -33,5 +33,20 @@
 #     total += i
 #     i += 1
 #     print("The total sum is:", total)
-
   
+
+# i = 10
+# while i >= 1:
+#     print(i)
+#     i = i - 1
+
+
+# secret_num = int(input("enter the secret number"))
+
+# while secret_num == 7:
+#     print("Your Guess is right")
+#     break
+# if secret_num > 7:
+#     print("Its too high come little low")
+# elif secret_num < 7:
+#     print("thoda uppar ajao")
