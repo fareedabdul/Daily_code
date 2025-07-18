@@ -50,3 +50,26 @@
 #     print("Its too high come little low")
 # elif secret_num < 7:
 #     print("thoda uppar ajao")
+
+
+# secret_code = 7
+
+# while True:
+#     guess = int(input("Enter the Guess number: "))
+
+#     if guess == secret_code:
+#         print("Mashallah ! Succesfully took the number")
+#         break
+#     elif guess < secret_code:
+#         print("High karna bhai")
+#     elif guess > secret_code:
+#         print("thoda low kar bas")
+
+
+# while True:
+#     user_input = input("Enter something (or 'q' to quit): ")
+#     if user_input.lower() == 'q':
+#         print("Goodbye!")
+#         break
+#     else:
+#         print(user_input.upper())
