@@ -134,4 +134,16 @@ Use a while loop when:
 (e.g. binary search loop until range matches)
 
 Short rule: 👉 Use while when the number of repetitions is unknown and depends on a condition.
+
+
+
+*******************************************************************************************************
+
+Simple 3-line memory hack:
+🟢 for = “Kitni baar karna hai? Batao, main karta hu.”
+🔵 while = “Jab tak condition true hai, karta rahunga.”
+🟡 if-else = “Agar yeh sach hai toh yeh karo, warna woh karo.”
+
+
+
     ************************************************END***************************************************

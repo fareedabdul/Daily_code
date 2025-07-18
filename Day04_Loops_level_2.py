@@ -73,3 +73,23 @@
 #         break
 #     else:
 #         print(user_input.upper())
+
+
+# for i in "Developer":
+#     print(i)
+# 
+
+# range(start, stop, step)
+
+# for i in range(2, 21, 2):
+#     print(i)
+
+
+# names = ["Fareed", "Waheed", "Roshan", "Roshni"]
+# for name in names:
+#     print(name)
+    
+    
+# for i in range(1, 5):
+#     print("*" * i)
+
