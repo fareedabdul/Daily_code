@@ -116,5 +116,22 @@ for item in food:
 
     -----------------------------------------------------------------------------------------------------
 
+Use a while loop when:
 
+✅ You don’t know how many times to repeat
+(e.g. keep asking for user input until it's valid)
+
+✅ You want to run code until a condition changes
+(e.g. wait for a sensor or event to trigger)
+
+✅ You're reading data until it's finished
+(e.g. reading a file until end of file)
+
+✅ You need a loop that depends on real-time logic
+(e.g. a game loop or live server process)
+
+✅ Condition-based algorithms
+(e.g. binary search loop until range matches)
+
+Short rule: 👉 Use while when the number of repetitions is unknown and depends on a condition.
     ************************************************END***************************************************
