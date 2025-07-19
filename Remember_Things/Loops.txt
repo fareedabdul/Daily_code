@@ -4,7 +4,7 @@ if-elif-else	 Jab condition check karna ho (decision making)
 while	         Jab tak condition true hai (unknown repeats)
 for	             Jab exact repeat chahiye (known loops – list, range)
 break          	 Loop se turant nikalna ho
-continue     	 Current step skip karke next pe jaana ho 
+continue   	 Current step skip karke next pe jaana ho 
 
 
 ---------------------------------------------------------------------------------------
