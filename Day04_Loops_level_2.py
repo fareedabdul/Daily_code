@@ -93,6 +93,32 @@
 # for i in range(1, 5):
 #     print("*" * i)
 
-for i in range(1,4):
-    for j in range(1,10):
-        print(i,j)
+# for i in range(1,4):
+#     for j in range(1,10):
+#         print(i,j)
+
+
+
+# **************************Master the nested Loop*************************************
+
+
+# for i in range(1,5):
+#     for j in range(4):
+#      print(i,end="")
+#     print()
+
+
+# for i in range(1,6):
+#     for j in range(5 - i ):
+#         print("",end="")
+#         for j in range(i):
+#             print("*",end="")
+#             print()
+
+# for i in range(5):
+#     for j in range(5):
+#         if i == j:
+#             print("*",end="")
+#         else:
+#             print("",end="")
+#         print()
