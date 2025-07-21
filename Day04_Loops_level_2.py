@@ -122,3 +122,18 @@
 #         else:
 #             print("",end="")
 #         print()
+
+
+# i = 0 # starting from 1
+# while i <= 20:
+#     if i % 2 == 0:
+
+#       print(i)
+#     i = i+1
+
+# num = int(input("Enter a number: "))
+# i = 1
+
+# while i <= 10:
+#     print(num * i)
+#     i += 1
