@@ -35,3 +35,19 @@
 # result = calculate_age(input1)
 # print("Your age is:", result)
 
+
+
+# def function(name, age, city):
+#    return f"Hello, my name is {name},iam {age} years old, and i live in {city} "
+
+# result = function("Fareed",12,"Hyderabad")
+# print(result)
+
+
+# def greet(name, age = 21):
+#    return  f"Hello {name}, you are {age} years old."
+
+
+# result = greet("fareed")
+
+# print(result)
