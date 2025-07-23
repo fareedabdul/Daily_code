@@ -60,4 +60,4 @@ def calculate(num1, num2):
 result1,res2= calculate(10, 5)
 print(result1,res2)         
 ################### if we are passing more than one argument then 
-# defined in Two name vaiable and call them  
+# defined in Two name vaiable and call them
