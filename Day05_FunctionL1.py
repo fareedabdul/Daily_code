@@ -52,12 +52,21 @@
 
 # print(result)
 
-def calculate(num1, num2):
-    add = num1 + num2
-    diff = num1 - num2
-    return add, diff
+# def calculate(num1, num2):
+#     add = num1 + num2
+#     diff = num1 - num2
+#     return add, diff
 
-result1,res2= calculate(10, 5)
-print(result1,res2)         
+# result1,res2= calculate(10, 5)
+# print(result1,res2)         
 ################### if we are passing more than one argument then 
 # defined in Two name vaiable and call them
+
+
+# def number(num1, num2):
+#     add = num1 + num2
+#     mul = num1 * num2
+#     return add, mul
+
+# result1,result2 = number(15,6)
+# print(result1,result2)
