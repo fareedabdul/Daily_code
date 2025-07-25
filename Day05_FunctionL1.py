@@ -83,3 +83,8 @@
 # else:
 #     print("Not a palindrome")
 
+# palind = input("Enter ma: ")
+# if palind == palind[::-1]:
+#     print("success")
+# else:
+#     print("Chal Ye nahi hota")
