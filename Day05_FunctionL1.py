@@ -70,3 +70,16 @@
 
 # result1,result2 = number(15,6)
 # print(result1,result2)
+
+
+# def palindrome(text):
+#     text = text.lower().replace(" ","")
+#     return text == text[::-1]
+
+# User_input = input("Enter the word or letter:")
+
+# if palindrome(User_input):
+#     print("Is palindrome")
+# else:
+#     print("Not a palindrome")
+
