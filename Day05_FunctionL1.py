@@ -89,6 +89,6 @@
 # else:
 #     print("Chal Ye nahi hota")
 
-name = "Fareed"
-if name == "Fareed":
-    print("Success Bro")
+# name = "Fareed"
+# if name == "Fareed":
+#     print("Success Bro")
