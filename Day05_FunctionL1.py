@@ -188,10 +188,22 @@
 #################4.  Write a function that calculates the square and cube of a number and returns both.
 
 
-def function(n):
-    sqaure = n * n 
-    qube = n * n * n 
-    return sqaure,qube
+# def function(n):
+#     sqaure = n * n 
+#     qube = n * n * n 
+#     return sqaure,qube
 
-result = function(5)
-print(result)
+# result = function(5)
+# print(result)
+
+################# 5. Create a function to check whether a student has passed based on average (>= 40).
+
+# def is_pass(num1):
+#     if num1 <= 40:
+#         print("pass")
+#     elif 40 <= num1 <= 75:
+#         print("he got a very good score actually")
+#         return 
+    
+# is_pass(41)
+
