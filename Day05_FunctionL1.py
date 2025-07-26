@@ -141,10 +141,18 @@
 # print(result1,result2,result3,result4)
 
 ####################################### Function 5 functions in loops
-def square(n):
-    return n * n
-for i in range (1,11):
-    print(f"square of {i} is {square(i)}")
+# def square(n):
+#     return n * n
+# for i in range (1,11):
+#     print(f"square of {i} is {square(i)}")
 
+
+################################### Function Return vs print 
+
+# def add(a,b):
+#    return (f"1st value is {a} and 2nd is {b}")
+
+# result = add(1,5)
+# print(result)
 
 

@@ -36,3 +36,13 @@ print("Division:", result4)
 
 #########################################################
 
+| 🔢 S.No | 🧠 Concept                 | ✅ Do This                                                    | ❌ Don’t Do This (Beginner Mistakes)                                    |
+| ------- | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| 1️⃣     | **Multiple Parameters**    | Use commas to separate params → `def fun(a, b)`              | Don’t mismatch argument count during call                              |
+| 2️⃣     | **Default Parameters**     | `def greet(name, city="Hyderabad")`                          | Don’t write `def greet(city="Hyd", name)` ❌                            |
+| 3️⃣     | **Return Multiple Values** | Use `return val1, val2` and unpack like `x, y = func()`      | Don’t forget to unpack → causes error                                  |
+| 4️⃣     | **Functions in Loops**     | Call function inside `for` loop → `for i in range(): fun(i)` | Don’t print inside both loop and function (double print)               |
+| 5️⃣     | **Return vs Print**        | Use `return` when you need to use value later                | Don’t use only `print()` if value is reused later                      |
+| 6️⃣     | **Naming**                 | Use lowercase\_snake\_case → `def add_marks()`               | Don’t name function like `AddMarks` or use numbers like `fun1` blindly |
+| 7️⃣     | **Parameter Order**        | Required params first, defaults after → `def fun(a, b=10)`   | Don’t do `def fun(a=10, b)` ❌                                          |
+| 8️⃣     | **Reusability**            | Use return to reuse result in other logic                    | Don’t write everything inside print                                    |
