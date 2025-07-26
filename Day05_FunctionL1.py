@@ -104,3 +104,17 @@
 
 # result = greet("Fareed",25)
 # print(result) #  manually bhi values pass kar sakte hai even though you have passed the deafult value 
+
+
+############ Function 2
+
+# def dummy(name):
+#     return (f"hello {name}")
+# result = dummy("Fareed")
+# print(result)
+
+
+################## prob Functions 3 
+
+
+

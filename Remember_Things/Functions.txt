@@ -1,0 +1,13 @@
+ Difference Between return vs print()
+Feature	return	print()
+📦 Purpose	Value ko function se bahar bhejna	Output ko terminal pe dikhana
+🧠 Use	Logic mein calculation pass karne ke liye	User ko output dikhane ke liye
+🧱 Inside Function	Function execution ko yahin pe rok deta hai	Execution continue karta hai
+🔁 Reusability	Value ko baad mein use kar sakte ho	Value ko reuse nahi kar sakte
+
+
+##################### My mistakes without print ye print nahi hoga bolrein 
+def greet(name):
+    return f"Hello {name}"
+
+greet("Fareed")
