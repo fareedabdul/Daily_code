@@ -155,4 +155,43 @@
 # result = add(1,5)
 # print(result)
 
+################ 1 .  Create a function that takes two numbers and returns their sum, product, and difference.
+# def function(num1,num2):
+#     sum = num1 + num2
+#     pro = num1 * num2
+#     diff = num1 - num2
+#     return sum,pro,diff
+# result1,result2,result3 = function(5,6)
+# print(result1,result2,result3)
 
+#######################2.  Create a function is_even(n) that returns True if the number is even, else False
+
+# def is_even(n):
+#     if n % 2 == 0:
+#         print("Its an even")
+#     else:
+#         print("its not")
+#     return 
+
+# is_even(2)
+
+
+###################3...Create a function that takes name, age, and location, and prints a greeting.
+
+# def details(name,age,locations):
+#     return (f"hi my name is {name} and my age is {age} and iam from {locations}")
+
+# result = details("fAREED",21,"Hyd")
+# print(result)
+
+
+#################4.  Write a function that calculates the square and cube of a number and returns both.
+
+
+def function(n):
+    sqaure = n * n 
+    qube = n * n * n 
+    return sqaure,qube
+
+result = function(5)
+print(result)
