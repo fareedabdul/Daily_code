@@ -140,7 +140,11 @@
 # result1,result2,result3,result4 = cal(1,9)
 # print(result1,result2,result3,result4)
 
-####################################### Function 5
+####################################### Function 5 functions in loops
+def square(n):
+    return n * n
+for i in range (1,11):
+    print(f"square of {i} is {square(i)}")
 
 
 
