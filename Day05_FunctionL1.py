@@ -92,3 +92,15 @@
 # name = "Fareed"
 # if name == "Fareed":
 #     print("Success Bro")
+
+# print1 = print("Hello World!")
+# if print1 == "Hello World!":
+#     print("Sucess")
+# else:
+#     print("no success") 
+
+# def greet(name, age =21):
+#     return f"hello {name} now you are {age} and good mrng"
+
+# result = greet("Fareed",25)
+# print(result) #  manually bhi values pass kar sakte hai even though you have passed the deafult value 
