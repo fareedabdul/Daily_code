@@ -116,5 +116,15 @@
 
 ################## prob Functions 3 
 
+# def func():
+#     return (
+#         "Hello world\n"
+#         "chill bro\n"
+#         "Mastering Functions\n"
+#         "Dont misuse of functions as you misuse me\n"
+#     )
+# result = func()
+# print(result)
 
+################# Problem Functins 4
 
