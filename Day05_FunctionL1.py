@@ -99,6 +99,8 @@
 # else:
 #     print("no success") 
 
+
+######################################### Default parameters
 # def greet(name, age =21):
 #     return f"hello {name} now you are {age} and good mrng"
 
@@ -126,5 +128,19 @@
 # result = func()
 # print(result)
 
-################# Problem Functins 4
+################# Problem Functins 4 Return multiple values
+
+# def cal(num1,num2):
+#     add =  num1 + num2
+#     sub = num1 - num2
+#     mul = num1 * num2
+#     div = num1 / num2
+#     return (add,sub,mul,div)
+
+# result1,result2,result3,result4 = cal(1,9)
+# print(result1,result2,result3,result4)
+
+####################################### Function 5
+
+
 

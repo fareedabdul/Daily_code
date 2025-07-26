@@ -11,3 +11,28 @@ def greet(name):
     return f"Hello {name}"
 
 greet("Fareed")
+
+
+
+########################################
+
+# Function returning multiple values and unpacking them
+def cal(num1, num2):
+    add = num1 + num2
+    sub = num1 - num2
+    mul = num1 * num2
+    div = num1 / num2
+    return (add, sub, mul, div)  # returns a tuple
+
+# Tuple unpacking into 4 variables
+result1, result2, result3, result4 = cal(1, 9)
+
+# Printing each result separately
+print("Addition:", result1)
+print("Subtraction:", result2)
+print("Multiplication:", result3)
+print("Division:", result4)
+
+
+#########################################################
+
