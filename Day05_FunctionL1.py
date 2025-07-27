@@ -239,7 +239,7 @@
 
 # def subjects(a,b,c):
 #     Total = a+b+c
-#     avg = a+b+c / 3
+#     avg = (a+b+c) / 3
 #     if Total > 65:
 #         print("your Grade is A")
 #     return Total,avg 
@@ -269,3 +269,10 @@
 
 # result1,result2,rs3,rs4 = calculator(inp1,inp2)
 # print(result1,result2,rs3,rs4)
+
+##############################12.Verey level ra 
+# def square(n):
+#     return n * n
+
+# for i in range(1, 11):
+#     print(f"Square of {i} is {square(i)}")
