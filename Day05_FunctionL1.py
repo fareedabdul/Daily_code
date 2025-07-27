@@ -225,3 +225,23 @@
 #         return
     
 # compare_num(5,7)
+
+############################8.Write a function square(n) and call it inside a for loop from 1 to 10.
+
+# def square(n):
+#     return  f"this are are the {(n*n)} "
+# for i in range(1,100):  
+#       # return n
+#  result = square(i)
+#  print(result)
+
+#######################9. Create a function that accepts marks in 3 subjects and returns total, average, and grade.
+
+# def subjects(a,b,c):
+#     Total = a+b+c
+#     avg = a+b+c / 3
+#     if Total > 65:
+#         print("your Grade is A")
+#     return Total,avg 
+# result1, result2= subjects(55,66,20)
+# print(result1,result2)
