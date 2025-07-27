@@ -245,3 +245,27 @@
 #     return Total,avg 
 # result1, result2= subjects(55,66,20)
 # print(result1,result2)
+
+############################10.  Create a function greet() that uses return instead of print, and show the difference.
+
+# def greet():
+#     print(f"Hello world")
+# greet()
+
+# Create a calculator function that takes two numbers and an operator (+, -, *, /) and returns the result.
+
+
+# def calculator(num1,num2):
+#     add = num1 + num2
+#     mul = num1 * num2
+#     sub= num1 - num2
+#     div = num1 / num2
+
+#     return add,mul,sub,div
+
+    
+# inp1 = int(input("Enter the value1: "))
+# inp2 = int(input("Enter the value2: "))
+
+# result1,result2,rs3,rs4 = calculator(inp1,inp2)
+# print(result1,result2,rs3,rs4)
