@@ -207,3 +207,12 @@
     
 # is_pass(41)
 
+#######################6. Create a function with default parameter city = "Hyderabad", and takes name.
+
+# def city(name,city="Hyderabad"):
+#     return (f"my name is{name} and live in {city}")
+
+# result = city("Fareed")
+# print(result)
+
+
