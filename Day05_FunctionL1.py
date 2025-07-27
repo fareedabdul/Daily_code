@@ -215,4 +215,13 @@
 # result = city("Fareed")
 # print(result)
 
+#################################7. Create a function compare_numbers(a, b) which returns the maximum number.
 
+# def compare_num(a,b):
+#     if a > b:
+#         print(f"{a} is greater than {b}")
+#     elif b > a:
+#         print(f"{b} is greater than {a}")
+#         return
+    
+# compare_num(5,7)
