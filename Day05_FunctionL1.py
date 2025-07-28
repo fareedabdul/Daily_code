@@ -291,3 +291,28 @@
 # output = leap_year(result)
 # print(output)
 
+################################################
+#Function takes two numbers and an operator, and performs based on operator.
+
+# def Calculator(num1,num2,operator):
+#     if operator == "+":
+#         return num1 + num2
+#     elif operator == "-":
+#         return num1 - num2
+#     elif operator == "*":
+#         return num1 * num2
+#     elif operator == "/":
+#         return num1 / num2
+#     else:
+#         return "Invalid"
+
+# numm1 = int(input("Enter the number kaka: "))
+# numm2 = int(input("Enter the number kaka: "))
+# operator1 = input("Enter the operator kaka: ")
+
+# output = Calculator(numm1,numm2,operator1)
+# print(output)
+
+
+##############################################################
+
