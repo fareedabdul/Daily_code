@@ -276,3 +276,18 @@
 
 # for i in range(1, 11):
 #     print(f"Square of {i} is {square(i)}")
+
+
+###################### 
+#lEAP YEAR 
+
+# def leap_year(year):
+#     if (year % 4 == 0 and year % 100 != 0) or (year % 400 ==0):
+#         return True
+#     else:
+#         return False
+    
+# result = int(input("Enter the leap year: "))
+# output = leap_year(result)
+# print(output)
+
