@@ -43,3 +43,17 @@
 # output = prime(result)
 # print(output)
 
+########################################################################
+# factorial 
+
+def factorial(n):
+    if n < 0:
+        return "Factorial doesnt exist less than 0"
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+int = int(input("Enter the input Number: "))
+result = factorial(int)
+print(result)
