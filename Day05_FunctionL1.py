@@ -327,3 +327,17 @@
 # print(leap_year(2000))
 
 
+###################################################
+#Palindrome
+
+# def palindrome(text):
+#     if text == text[::-1]:
+#         return f"its a palindrome {text} acha hai"
+#     else:
+#         return "sahi nahi hai smjha"
+# inp = input("Enter the input for checking the input: ")
+# result = palindrome(inp)
+# print(result)
+
+
+###############################################################
