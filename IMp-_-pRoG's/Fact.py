@@ -16,10 +16,9 @@
 
 #-----------------------Method2-----------------------
 
-import math 
-num = int(input('Enter the Number: '))
-if num < 0:
-  print("factorial is not defined for negative numbers")
-else:
-  print(f"The factorial of {num} is : {math.factorial(num)}")
-  
+# import math 
+# num = int(input('Enter the Number: '))
+# if num < 0:
+#   print("factorial is not defined for negative numbers")
+# else:
+#   print(f"The factorial of {num} is : {math.factorial(num)}")
