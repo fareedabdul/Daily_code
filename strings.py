@@ -26,3 +26,7 @@
 # s = s[0:2] + " Good Mrng Guys"
 # s = s[3:]
 # print(s)
+
+s = tuple((1,2,5,"hello"))
+
+print(s)
