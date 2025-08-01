@@ -18,16 +18,30 @@
 
 # -----------------------------Method 2 -----------------------------
 
-def prime(inp):
+# def prime(inp):
 
-    if inp <= 1:
-        return f"Its not a prime number"
-    for i in range(2,inp):
-        if inp % i == 0:
-            return f"its not a prime" # if its divide then it is not a prime 
-        else:
-            return f"its a prime"
+#     if inp <= 1:
+#         return f"Its not a prime number"
+#     for i in range(2,inp):
+#         if inp % i == 0:
+#             return f"its not a prime" # if its divide then it is not a prime 
+#         else:
+#             return f"its a prime"
         
-result = int(input("Enter the input :")) 
-output = prime(result)
-print(output)
+# result = int(input("Enter the input :")) 
+# output = prime(result)
+# print(output)
+
+
+def is_prime(n):
+    if n <= 1:
+        return f"its not a prime number Oops"
+    else:
+        for i in range(2,n):
+            if n % i == 0:
+                return False
+        else:
+           return True
+input = int(input("Enter the number bro: "))
+result = is_prime(input)
+print(result)
