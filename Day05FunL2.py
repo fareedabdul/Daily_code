@@ -111,3 +111,13 @@
 # Used to send the result back to where the function was called.
 
 # Useful for storing, testing, or using later.
+
+
+
+# -----------------------------------------------------------------------------------Common Beginner Mistakes (Quick Summary)
+# Mistake	                                    Explanation
+# Mixing positional and keyword wrongly  --	Positional first, then keyword
+# Wrong order of default parameters      --	Defaults must come after required ones
+# Using print instead of return	         -- Print only shows, return gives back value
+# Forgetting to call the function	     -- Defining a function is not enough, you must call it
+# # Hardcoding values inside function	 -- Instead, take them as parameters
