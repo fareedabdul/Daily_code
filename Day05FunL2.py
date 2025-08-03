@@ -91,5 +91,23 @@
 
 # greet("English")                   # Uses default: English
 # greet(,language=)  # Overrides default
+#######################################################################################
+#Example problem 07
 
 
+# def register(name, role="Student"):
+#     return print(f"he is the one {name} and his still is in {role}")
+# register("FarXEid")
+
+
+# -------------------------------------------------------------------------------------------------
+# Step 4: Return vs Print
+# print():
+# Used to display output.
+
+# Doesn’t give back the value to the program.
+
+# return:
+# Used to send the result back to where the function was called.
+
+# Useful for storing, testing, or using later.
