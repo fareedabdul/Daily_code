@@ -1,13 +1,13 @@
 ###########################################
 # Leap Year 
-def leap_year(year):
-    if (year % 4 == 0 and year % 100 != 0) or (year % 400 ==0 ):
-        return True 
-    else:
-        return False
-input = int(input('Enter the Year: '))
-result = leap_year(input)
-print(result)
+# def leap_year(year):
+#     if (year % 4 == 0 and year % 100 != 0) or (year % 400 ==0 ):
+#         return True 
+#     else:
+#         return False
+# input = int(input('Enter the Year: '))
+# result = leap_year(input)
+# print(result)
 
 ##################################################################3
 
@@ -29,31 +29,43 @@ print(result)
 # prime_number(n)
 
 
-def prime(inp):
+# def prime(inp):
 
-    if inp <= 1:
-        return f"Its not a prime number"
-    for i in range(2,inp):
-        if inp % i == 0:
-            return f"its not a prime" # if its divide then it is not a prime 
-        else:
-            return f"its a prime"
+#     if inp <= 1:
+#         return f"Its not a prime number"
+#     for i in range(2,inp):
+#         if inp % i == 0:
+#             return f"its not a prime" # if its divide then it is not a prime 
+#         else:
+#             return f"its a prime"
         
-result = int(input("Enter the input :")) 
-output = prime(result)
-print(output)
+# result = int(input("Enter the input :")) 
+# output = prime(result)
+# print(output)
 
 ########################################################################
 # factorial 
 
-def factorial(n):
-    if n < 0:
-        return "Factorial doesnt exist less than 0"
-    elif n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial(n-1)
+# def factorial(n):
+#     if n < 0:
+#         return "Factorial doesnt exist less than 0"
+#     elif n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
     
-int = int(input("Enter the input Number: "))
-result = factorial(int)
-print(result)
+# int = int(input("Enter the input Number: "))
+# result = factorial(int)
+# print(result)
+
+
+# positional Arguments 
+
+# def greet(name,age):
+#     return f"hey bro mera name hai {name} and meri age h {age}"
+
+# input = greet(21,"fareed")
+# print(input)
+
+# It’ll still run, but the output will be messed up:
+

@@ -1,1 +1,1 @@
-s
+greet("fareed","fareeed")
