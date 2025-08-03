@@ -86,5 +86,10 @@
 
 # student_info(roll_number=102, branch="CSE", name="Fareed")
 
+# def greet(name = "Fareed",language): 
+# You should always place required (non-default) parameters first, and default ones later.    print(f"Hello {name}, you prefer {language} ")
+
+# greet("English")                   # Uses default: English
+# greet(,language=)  # Overrides default
 
 
