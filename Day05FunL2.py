@@ -69,3 +69,22 @@
 
 # It’ll still run, but the output will be messed up:
 
+# example 1
+# def introduce(name,city,Hobby):
+#         return print(f"my name is {name}, and i live in {city} and my hobbies are {Hobby}")
+# introduce("Fareed","Hyd","Car enthusiats")
+
+
+#example 2 
+
+
+# Keyword Arguments
+# With keyword arguments, you specify the name of the parameter when passing the value — so the order doesn’t matter!
+
+# def student_info(name,branch,roll_number):
+#     return print(f"name is {name} rollNo: is {roll_number} and branch is {branch}")
+
+# student_info(roll_number=102, branch="CSE", name="Fareed")
+
+
+
