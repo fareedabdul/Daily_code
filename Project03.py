@@ -1,11 +1,8 @@
 # user_input = input("Enter The student number")
 
-def calculate_avg(sub1,sub2,sub3):
+def calculate_avg(sub1,sub2,sub3=0):
     avg = sub1 + sub2 + sub3 
-    return avg / 3
-subj1 = int(input("Enter the subject1: "))
-subj2 = int(input("Enter the subject2: "))
-subj3 = int(input("Enter the subject3: "))
+    return avg / 3 if sub3 != 0 else avg / 2 
 
 def assign_grade(returning):
     if returning > 90:
@@ -14,15 +11,30 @@ def assign_grade(returning):
         return (f"Grade B")
     elif 45 <= returning <= 69:
         return (F'Grade C')
-    elif 35 < returning:
+    elif  returning < 35 :
         return f"Fail Bro"
     else:
         return f" please enter the marks first for checking !!"
-   
 
-returning = calculate_avg(subj1,subj2,subj3)
-print(returning)
+num_students = int(input("how many student do want to Enter : "))
 
+for i in range(num_students):
+    print(f"\n--- Student {i+1} ---")
+    name = input("Enter student name: ")
+    sub1 = int(input("Enter Subject 1 marks: "))
+    sub2 = int(input("Enter Subject 2 marks: "))
+    third = input("Do you want to enter Subject 3 marks? (y/n): ")
 
+    if third.lower() == 'y':
+        sub3 = int(input("Enter Subject 3 marks: "))
+        avg = calculate_avg(sub1, sub2, sub3)
+    else:
+        avg = calculate_avg(sub1, sub2)
+
+    grade = assign_grade(avg)
+
+    print(f"\n{name}'s Report:")
+    print(f"Average: {avg}")
+    print(f"Grade: {grade}")
 
 
