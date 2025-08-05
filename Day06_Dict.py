@@ -115,3 +115,40 @@
 # routine = s.fromkeys(lists,"Same Routine")
 # routine
 # {'Mon': 'Same Routine', 'Tue': 'Same Routine', 'Wed': 'Same Routine'}
+
+
+# Dictnary will ba play vital role in Real time data
+# and dictonary is a key and value pairs 
+# dictonary can have a uniq keys No duplicates4
+# values can be duplicates and any datatypes 
+# keys are immutable
+# keys should be single element
+# key should be uniq
+# dict is a mutable
+
+# *****************************We have 3 types of assigning method------------------
+# ! first is Direct assigning : d ={}
+# ! Class object : d1 = dict({key: value})
+# ! DEfault value : d = {}
+
+
+# *******************************we have basically 5 types of accessing the dict----------
+# ? by the key value : syn :- dict[]
+# ? by GET method : var.get(key,sp)
+#? only keys : var.keys()
+# ? only values : var.values()
+# ? Full items : var.items()
+
+#***********************************removing the key elements
+# ? Pop()  :- var.pop(key,secondparameter)
+# ? popitem() :- var.popitem() // Randomly it will delete
+# ? clear() :- clear the all dictonary set No error
+# ? del - 2types  - 1.first type :- del var
+# ? second type - del var[key]
+
+#*********************************adding the elememt
+#? 1.key value pairs = syntax : dict[key] ="value"
+#? 2.updating the variable : dict.update(key = "value")
+# ?  first you need a S = {} , then create key for different in list []
+#? then access the dictionary and then dict.fromkeys(listname,"Value")
+
