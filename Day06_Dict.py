@@ -96,3 +96,22 @@
 #   File "<pyshell#69>", line 1, in <module>
 #     s1
 # NameError: name 's1' is not defined. Did you mean: 'd1'?
+
+
+#####################################################################################################
+# Adding values pairs
+# d ={}
+# d["key 01"] = "Darwaza2"
+# d
+# {'key 01': 'Darwaza2'}
+# d["Key 02"] = "Darawaza3"
+# d
+# {'key 01': 'Darwaza2', 'Key 02': 'Darawaza3'}
+
+
+# -------------------------------------------------------------
+# s = {}
+# lists = ["Mon","Tue","Wed"]
+# routine = s.fromkeys(lists,"Same Routine")
+# routine
+# {'Mon': 'Same Routine', 'Tue': 'Same Routine', 'Wed': 'Same Routine'}
