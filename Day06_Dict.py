@@ -54,3 +54,45 @@
 # NameError: name 'dl' is not defined. Did you mean: 'd'?
 # d1.items()
 # dict_items([(445, 'rohit'), (7, 'Dhoni'), (8, 'Ronaldo')])
+
+
+
+# s1
+# {'hello': 1, 'world': 22, 'Bro': 364}
+# s1.pop("Bro")
+# 364
+# s1
+# {'hello': 1, 'world': 22}
+# s1.popitem()
+# ('world', 22)
+# s1.popitem("hello")
+# Traceback (most recent call last):
+#   File "<pyshell#57>", line 1, in <module>
+#     s1.popitem("hello")
+# TypeError: dict.popitem() takes no arguments (1 given)
+# s1.popitem()
+# ('hello', 1)
+# s1
+# {}
+# s1 = dict({'hello': 1, 'world': 22, 'Bro': 364})
+# s1.clear()
+# s1
+# {}
+# s1
+# {}
+# {}
+# {}
+# s1 = dict({'hello': 1, 'world': 22, 'Bro': 364})
+# del s1
+# s1
+# Traceback (most recent call last):
+#   File "<pyshell#67>", line 1, in <module>
+#     s1
+# NameError: name 's1' is not defined. Did you mean: 'd1'?
+# d1
+# {8: 'Ronaldo'}
+# s1
+# Traceback (most recent call last):
+#   File "<pyshell#69>", line 1, in <module>
+#     s1
+# NameError: name 's1' is not defined. Did you mean: 'd1'?
