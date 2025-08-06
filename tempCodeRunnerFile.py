@@ -1,1 +1,3 @@
-greet("fareed","fareeed")
+
+s[0] = 33
+print(s)  
