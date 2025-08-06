@@ -19,3 +19,12 @@
 # s["Fareed"] = "king"
 # print(type(s))
 # print(s)
+
+# Summary Table (Support Matrix):
+
+# Data Type →	Accepts       int/str     Accepts list  	Accepts dict	Accepts tuple	   Accepts set
+# List	                       ✅ Yes	    ✅ Yes	       ✅ Yes	      ✅ Yes	            ✅ Yes
+# Tuple	                       ✅ Yes	    ✅ Yes	       ✅ Yes	      ✅ Yes	            ✅ Yes
+# Set	                       ✅ Yes	    ❌ No	       ❌ No	          ✅ Yes	            ✅ Yes (but nested set ❌)
+# Dict (key)	              ✅ Yes	        ❌ No	       ❌ No	          ✅ Yes	            ❌ No
+# Dict (value)	              ✅ Yes	        ✅ Yes	        ✅ Yes   	  ✅ Yes             ✅ Yes
