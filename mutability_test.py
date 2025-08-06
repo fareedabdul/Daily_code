@@ -15,4 +15,7 @@
 # s.add(66)
 # print(s) #* we can change the item and list and dict are not available for SET 
 
-s = {"Fareed" : 182372347 }
+# s = {"Fareed": "182372347"}
+# s["Fareed"] = "king"
+# print(type(s))
+# print(s)
