@@ -137,3 +137,13 @@
 # while i <= 10:
 #     print(num * i)
 #     i += 1
+
+
+
+
+#?*******************************************************************************
+# FOR LOOP: (Used when you know how many times to run)
+# Start ➜ range() ➜ pick next ➜ run body ➜ repeat ➜ done
+
+# WHILE LOOP: (Used when you DON'T know how many times)
+# Start ➜ check condition ➜ True? ➜ run body ➜ check again ➜ False? ➜ done
