@@ -25,3 +25,9 @@
 #     for word in words:
 #         print(f"{word} ->{len(word)} letters")
 # function("Fareed","Word","injila")
+
+# def even_odd(*numbers):
+#     for num in numbers:
+#         tag = "even" if num % 2 == 0 else "odd"
+#         print(f"{num} --> {tag}" )
+# even_odd(3,4,6,88)
