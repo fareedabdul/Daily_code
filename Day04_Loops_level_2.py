@@ -147,3 +147,16 @@
 
 # WHILE LOOP: (Used when you DON'T know how many times)
 # Start ➜ check condition ➜ True? ➜ run body ➜ check again ➜ False? ➜ done
+
+
+# Greet All People
+
+# Function: greet_all(*names)
+
+# Task: Print "Hello <name>" for each name.
+
+
+# def greet(*args):
+#     for gm in args:  # its a tuple
+#         print(f'Good Morning {gm}')
+# greet("Fareed","Mummy","nani","nana")
