@@ -129,7 +129,12 @@
 
 # function(name = "Fareed", age = 21, city = "Hyderabad")
 
-def my_order(**kwargs):
-    for item in kwargs:   # Sirf ek variable
-        print(item, ":", kwargs[item])
-my_order(name= "Fareed", no = 21, clas = "model")
+# def my_order(**kwargs):
+#     for item in kwargs:   # Sirf ek variable
+#         print(item, ":", kwargs[item])
+# my_order(name= "Fareed", no = 21, clas = "model")
+
+# Function Call → def func(*args, **kwargs)
+#      |
+#      |__ 10, 20, 30 → *args → (10, 20, 30)
+#      |__ name="Fareed", age=21 → **kwargs → {"name": "Fareed", "age": 21}
