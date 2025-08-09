@@ -123,8 +123,13 @@
 # # Hardcoding values inside function	 -- Instead, take them as parameters
 
 
-def function(**multi):
-    for name,value in multi.items():
-        print(f"{name} => {value}")
+# def function(**multi):
+#     for value in multi.items():
+#         print(f" => {value}")
 
-function(name = "Fareed", age = 21, city = "Hyderabad")
+# function(name = "Fareed", age = 21, city = "Hyderabad")
+
+def my_order(**kwargs):
+    for item in kwargs:   # Sirf ek variable
+        print(item, ":", kwargs[item])
+my_order(name= "Fareed", no = 21, clas = "model")
