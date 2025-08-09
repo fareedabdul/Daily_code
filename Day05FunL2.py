@@ -121,3 +121,10 @@
 # Using print instead of return	         -- Print only shows, return gives back value
 # Forgetting to call the function	     -- Defining a function is not enough, you must call it
 # # Hardcoding values inside function	 -- Instead, take them as parameters
+
+
+def function(**multi):
+    for name,value in multi.items():
+        print(f"{name} => {value}")
+
+function(name = "Fareed", age = 21, city = "Hyderabad")
