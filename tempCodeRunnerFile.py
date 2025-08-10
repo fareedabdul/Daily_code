@@ -1,1 +1,2 @@
-list[5]
+
+# print(s)
