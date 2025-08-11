@@ -50,3 +50,35 @@ mixed = (1, "apple",[55,66], 3.5, True)
 #? Even modules or file handles
 
 
+# ***********************************************************
+
+# ? intermediate questions 
+
+# ! 1. How do you concatenate two tuple ? what is the result of (1,2) + (3,4) ?
+
+# tuple1 = ("Fareed ")
+# tuple2 = ("Al")
+
+# merge = tuple1 + tuple2
+# print(merge) // this is concatenate okay 
+
+# ? output of (1,2) + (3,4) ===>>> (1,2,3,4)
+
+
+# ! 2 . how do you slice a tuple ? give an example using a tuple of at least five elements
+
+# tuple1 = (55,555,66,666,77)
+# print(tuple1[::-1])
+
+# ! 3 . what happens if you try to modify an elements in a tuple ?
+#? Python will give an error because tuples are immutable (unchangeable).
+# ?  TypeError: 'tuple' object does not support item assignment
+
+
+# ! 4 . how can you convert a list to a tuple and vice versa ?
+# tuple1 = (55,66)
+# print(list(tuple1))
+# list1 = [69,96]
+# print(tuple(list1)) 
+
+ # ************************* The end ************************************
