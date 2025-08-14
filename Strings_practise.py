@@ -1,0 +1,3 @@
+
+#! 1. what is a string in python 
+#? string in python is a collection of characters or words that play a very imp role in python for understanding python syntax and all other stuff where 2. python is immutable datatype 3. that cant be changed once kit allocated ya we can change it by the indirect access 4. and python has 29 methods for doing everything that can be able to do,, 5. it has many way to create by the "single double quotes" & "" double quotes"" & 'single quotes'
