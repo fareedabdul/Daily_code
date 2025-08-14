@@ -1,2 +1,1 @@
-
-# print(s)
+ its simple as that 
