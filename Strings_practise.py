@@ -21,3 +21,35 @@
 # s= "strings"
 # print(s[5])
 
+#! 6. what is string concatenation ? provide an example 
+
+#? concatenation is like adding strings indirectly by using + operator like there are 5 basic methods are there 1. adding first 2. second 3. at the specific position 4. modify 5 . Del 
+#** example :--->
+# s = "fareed is a good "
+# s = s + "Boy"
+# print(s)
+
+#! 7. how can you repeat a string mulitple times in python ?
+# s = "ABC" * 3
+# print(s)
+# by muliply multiply symbol 
+
+
+#! 8 . what is the use of the len() function with strings ? 
+
+#? length is like finding the exact how many charcter or letters on a given string...
+# like  
+# s = " Python "
+# print(len(s))
+
+#! 9 . explain the diff between .lower(), .upper(), and captilize()
+#? lower will do all the character in lower alphabetical 
+#? upper will do all the character in upper  Case
+#? Capitlize will do all the character in lower capital
+
+# s = "lonty"
+# print(s.lower())
+# print(s.upper())
+# print(s.capitalize())
+
+#! 9 . explain the all 29 method functionalities and syntax
