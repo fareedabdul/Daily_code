@@ -27,6 +27,6 @@
 # s = s[3:]
 # print(s)
 
-s = tuple((1,2,5,"hello"))
+#s = tuple((1,2,5,"hello"))
 
-print(s)
+#print(s)
