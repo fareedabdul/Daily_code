@@ -21,4 +21,4 @@
 #? What is the difference between == and = in Python?
 #* == checks the values and = assign the value
 #? Explain what a loop is and the difference between for and while loops.
-#* for loop is like whenever we know the idea of iterable of values or count or times of loop that the character or value would be repeated then we use the for loop and while loop is like we dont know how many times does the loop will GOOOOOO 
+#* for loop is like whenever we know the idea of iterable of values or count or times of loop that the character or value would be repeated then we use the for loop and while loop is like we dont know how many times does the loop will GOOOOOO on 
