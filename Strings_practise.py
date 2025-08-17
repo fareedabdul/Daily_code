@@ -62,4 +62,19 @@
 # print(s)
 
 #! 10 . whats the different between find() and index() methods 
+#? so finds is like it finds the first index of the substring and both the index and find similar work karte hai, In find agar khuch nahi toh it will return -1 and in index shows ValueError: Substring Not Found 
+
+
+# s = "python programming"
+
+# print(s.find("pro"))   # 7
+# print(s.find("x"))     # -1
+
+
+#index.....................................
+
+# s = "python programming"
+
+# print(s.index("pro"))   # 7
+# print(s.index("x"))     # ❌ ValueError: substring not found
 
