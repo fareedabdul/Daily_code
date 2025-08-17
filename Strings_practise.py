@@ -53,3 +53,13 @@
 # print(s.capitalize())
 
 #! 9 . explain the all 29 method functionalities and syntax
+
+
+#! 10 . how do you remove whitespace from the beginning and end of a string ? 
+#? we use lstrip for removing the spacing at the beginning
+# s = "    sting bihar"
+# s = s.lstrip()
+# print(s)
+
+#! 10 . whats the different between find() and index() methods 
+
