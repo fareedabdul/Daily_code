@@ -78,3 +78,21 @@
 # print(s.index("pro"))   # 7
 # print(s.index("x"))     # ❌ ValueError: substring not found
 
+#! 10 . how do you check if a substring exists within a string or not 
+# s = " hello world kaise hoo sab thik ? "
+# print("hello" in s)
+# print("helo" in s)
+
+#! 11 . What is string Formatting ? Explain with an example using f-strings 
+#? see string formatting is a type that lets you print variables and all examples in one go
+# a = 10
+# b =30 
+# print(f"Hello bro {a} and {b}")
+
+#! 12 .  How do you replace parts of a string with another string 
+# s = " Hello world, world is big"
+
+# print(s.replace("world", "Earth"))
+# print(s.replace("world", "Earth",1))
+
+# string.replace(old, new, count) its a syntx
