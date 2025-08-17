@@ -95,4 +95,27 @@
 # print(s.replace("world", "Earth"))
 # print(s.replace("world", "Earth",1))
 
-# string.replace(old, new, count) its a syntx
+# string.replace(old, new, count) its a syntax
+
+#! 13 . How can strings be converted to lists and vice versa 
+#? okay we use the type coversion we use lets see the example 
+# s = "List"
+# list1 = [55,66]
+# print(list(s))
+# print(str(list1))
+
+#! 14 . what are some common use cases for strings in real-world python applications ? 
+# User Interaction
+# Data Cleaning and Processing
+# Searching and Matching
+# File Handling
+# Web Development
+# Data Extraction
+# Natural Language Processing (NLP)
+# APIs and Networking
+
+#! 15 . Explain the syntax and indirect modification of string? first, Last, Specified?
+
+# syntax for first is {syntax : variable = newstring + old variable}
+# syntax for last is { syntax : variable = oldstring + newstring  }
+# syntax for specified is { syntax : variable = slicing + newstring + slicing}
