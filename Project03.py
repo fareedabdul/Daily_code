@@ -29,13 +29,13 @@
 #         sub3 = int(input("Enter Subject 3 marks: "))
 #         avg = calculate_avg(sub1, sub2, sub3)
 #     else:
-#         avg = calculate_avg(sub1, sub2)
+#        avg = calculate_avg(sub1, sub2)
 
 #     grade = assign_grade(avg)
 
 #     print(f"\n{name}'s Report:")
 #     print(f"Average: {avg}")
-#     print(f"Grade: {grade}")
+#    print(f"Grade: {grade}")
 ###################################################################################################
 
 def calculate_marks(sub1, sub2, sub3=0):
