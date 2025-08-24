@@ -8,4 +8,4 @@
 
 # break, continue, pass
 
-# 👉 Practice: Write a program to print multiplication tables.
+#  Practice: Write a program to print multiplication tables.
