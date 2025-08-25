@@ -28,3 +28,18 @@ Variables & Data Types
 
 
 10. Exception Handling (try-except)
+
+11. Modules & Packages (import, pip)
+
+
+12. Object-Oriented Programming (Classes, Objects, Inheritance, Polymorphism)
+
+
+13. Iterators & Generators
+
+
+14. Decorators
+
+
+15. Lambda Functions & Map/Filter/Reduce
+
