@@ -1,1 +1,1 @@
-len(var//2)
+len(var//2) okay 
