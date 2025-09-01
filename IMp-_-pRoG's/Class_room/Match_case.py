@@ -15,3 +15,12 @@
 
 ##################################################################################################################
 
+color = input("Enter the color to validate you: ").lower()
+
+match color:
+    case "red":
+        print("please Stop")
+    case "yellow":
+        print("Be ready to drive")
+    case "green":
+        print("You can drive ")
