@@ -14,4 +14,10 @@
 #     start += 1
 
 # Q2. WAP to print 100 to 50 even number
+# start = 100
+# end = 50
 
+# while start >= end:
+#     print(start)
+
+#     start -=2
