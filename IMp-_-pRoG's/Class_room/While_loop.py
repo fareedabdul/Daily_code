@@ -24,11 +24,20 @@
 
 # Q3.WAP TO -1 TO -10
 
-# start = -1
+start = -1
+end = -10
+
+while start >= end:
+    print(start)
+
+    start -= 1
+
+# Q4. WAP TO print -20 to -10
+
+# start = -20
 # end = -10
 
-# while start >= end:
+# while start <= end:
 #     print(start)
 
-#     start -= 1
-
+#     start += 1
