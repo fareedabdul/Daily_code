@@ -21,3 +21,14 @@
 #     print(start)
 
 #     start -=2
+
+# Q3.WAP TO -1 TO -10
+
+# start = -1
+# end = -10
+
+# while start >= end:
+#     print(start)
+
+#     start -= 1
+
