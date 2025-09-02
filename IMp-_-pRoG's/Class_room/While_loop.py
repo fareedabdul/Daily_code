@@ -71,3 +71,22 @@
 
 #     start +=2
 
+# Q4 . WAP to print odd numbers from 1 to 10 
+
+# start = 1
+# end = 10 
+
+# while  start <= end:
+#     print(start)
+
+#     start += 1
+
+n = 5 
+
+start = 1
+end = 10 
+
+while start <= end:
+    print(f"{n} x {start} = {n * start}")
+
+    start +=1
