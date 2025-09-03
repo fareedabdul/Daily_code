@@ -35,10 +35,32 @@
 
 # WAP TO PRINT 0 - 9 
 
-start = 48
-end = 57
+# start = 48
+# end = 57
 
-while start <= 57:
-    print(chr(start))
+# while start <= 57:
+#     print(chr(start))
 
-    start +=1
+#     start +=1
+
+# WAP TO FETCH ALL CHAR FROM A GIVEN STRING ONE BY ONE 
+
+# S = input("Enter the string :")
+# start = 0
+# end = len(S)-1
+# while start <= end:
+#     print(S[start])
+
+#     start += 1
+
+#WAP TO PRINT CHARACTER IN REVERSE ?
+
+# s = "Fareed"
+
+# start = -1
+# end = -abs(len(s))
+# while start >= end:
+#     print(s[start])
+
+#     start -= 1
+
