@@ -92,3 +92,22 @@
 # print(uc,lc,num,spcl,sep="\n")
 
 
+# WAP TO GET FOLLOWING OUTPUT 
+
+s = input("Enter the string :")
+start = 0
+end = len(s)-1
+res = ""
+
+while start <= end:
+    if "A" <= s[start] <= "Z":
+        res += s[start].lower()
+    elif "a" <= s[start] <= "z":
+        res += s[start].upper()
+    elif "0" <= s[start] <= "9":
+        res += str(int(s[start]) **2)
+    else:
+        res += s[start]
+
+    start += 1
+print(res) 
