@@ -32,3 +32,13 @@
 # while start <= end:
 #     print(chr(start))
 #     start += 1
+
+# WAP TO PRINT 0 - 9 
+
+start = 48
+end = 57
+
+while start <= 57:
+    print(chr(start))
+
+    start +=1
