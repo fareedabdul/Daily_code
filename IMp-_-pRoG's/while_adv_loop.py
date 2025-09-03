@@ -64,3 +64,31 @@
 
 #     start -= 1
 
+# WAP TO GET THE EXPECTED ANS
+
+# INPUT = "HEl2$"
+
+# output : uc = HE lc = l num = 2 spcl = $ 
+
+
+# s = input("Enter the qna and get the answer: ")
+
+# start = 0
+# end = len(s)-1
+
+# uc, lc, num, spcl = "","","",""
+ 
+# while start <= end:
+#     if "A" <= s[start] <= "Z":
+#         uc += s[start]
+#     elif "a" <= s[start] <= "z":
+#         lc += s[start]
+#     elif "0" <= s[start] <= "9":
+#         num += s[start]
+#     else:
+#         spcl += s[start]
+
+#     start += 1
+# print(uc,lc,num,spcl,sep="\n")
+
+
