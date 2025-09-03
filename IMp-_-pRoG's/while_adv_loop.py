@@ -15,3 +15,20 @@
 
 
 # WAP to print A - Z
+
+
+# start = 65
+# end = 90
+
+# while start <= end:
+#     print(chr(start))
+
+#     start += 1
+
+# WAP TO PRINT a - z
+# start = 97
+# end = 122
+
+# while start <= end:
+#     print(chr(start))
+#     start += 1
