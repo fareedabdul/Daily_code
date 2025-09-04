@@ -126,3 +126,16 @@
 #         assume = list[start]
 #     start += 1
 # print(f"big number is {assume}")
+
+
+# Q) WAP TO ITERATE OVER A LIST AND GET THE TOTAL 
+# list = [55,88,777,232]
+# start = 0
+# end = len(list) -1 
+# total = 0
+
+# while start <= end:
+#     total += list[start]
+#     start += 1
+    
+# print(total)
