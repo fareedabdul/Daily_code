@@ -111,3 +111,18 @@
 
 #     start += 1
 # print(res) 
+
+
+# Q) WAP TO ITERATE OVER A LIST AND GET THE MAX NUMBER 
+
+
+# list = [5,55,777,66]
+# start = 0
+# end = len(list) -1 
+# assume = list[0]
+
+# while start < end: 
+#     if list[start] > assume:
+#         assume = list[start]
+#     start += 1
+# print(f"big number is {assume}")
