@@ -158,3 +158,17 @@ t = ("hi",8,99,66,6,7,{"a":10},2,-55)
 #     start += 1
 
 # print(assume)
+
+# Q) WAP TO ADD  NUMBER ?
+# S = "H2g7@98"
+
+# total = 0
+# start = 0
+# end = len(S)-1
+
+# while start <= end:
+#     if '0' <= S[start] <= '9':
+#         total += int(S[start])
+
+#     start += 1
+# print(total)
