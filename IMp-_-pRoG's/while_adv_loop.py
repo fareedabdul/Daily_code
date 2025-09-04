@@ -139,3 +139,22 @@
 #     start += 1
     
 # print(total)
+
+
+# Q) WAP TO GET THE MINIMUM NUMBER FROM A GIVEN TUPLE 
+
+t = ("hi",8,99,66,6,7,{"a":10},2,-55)
+
+
+# start = 0
+# end = len(t)-1
+# assume = t[3]
+
+# while start < end:
+#     if type(t[start]) == int:
+#         if t[start] < assume:
+#             assume = t[start]
+
+#     start += 1
+
+# print(assume)
