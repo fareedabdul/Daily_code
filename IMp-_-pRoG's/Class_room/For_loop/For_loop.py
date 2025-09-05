@@ -69,3 +69,36 @@
 # for i in d.items():
 #     print(i)
 
+# --------------------------------------------------------------------------------------------------
+
+# UNPACKING IN FOR LOOP BLOCK
+
+
+# d = {7: "Fareed", 31 : "bhaiya", 25: "mom"}
+# for i in d.items():
+#     print(i[0],i[1], sep=" : ")
+# ---------------------------------------------------------------------------
+
+
+# unpacking in for loop declaration
+
+# d = {7: "Fareed", 31 : "bhaiya", 25: "mom"}
+
+# for k,v in d.items():
+#     print(k,v)
+
+
+# ----------------------------------------------------------------------------
+
+
+# WAP TO CREATE A LIST OF PALINDROME WORDS IN UPPER CASE
+
+s = "deva sir loves malayalam mam"
+
+words = s.split()
+palindrome = []
+
+for ele in words:
+    if ele == ele[::-1]:
+        palindrome.append(ele.upper())
+print(palindrome)
