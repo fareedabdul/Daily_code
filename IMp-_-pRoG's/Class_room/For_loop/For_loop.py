@@ -34,7 +34,13 @@
 # -------------------------------------------------------------------
 # 5) WAP TO ITERATE OVER A DICT AND GET ONE CHAR AT A TIME 
 
-s = {7: "Fareed", 31 : "bhaiya", 25: "mom"}
+# s = {7: "Fareed", 31 : "bhaiya", 25: "mom"}
 
-for i in s:
-    print(i)
+# for i in s:
+#     print(i)
+# -------------------------------
+# for items
+
+# for i in s:
+#     print(s[i])
+
