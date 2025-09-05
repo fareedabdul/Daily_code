@@ -44,3 +44,28 @@
 # for i in s:
 #     print(s[i])
 
+# For loop on built in functions/ methods 
+
+# Q6) WAP TO ITERATE OVER A DICT AND GET ONE KEY AT A TIME BY USING KEYS()
+
+# d = {7: "Fareed", 31 : "bhaiya", 25: "mom"}
+
+# for i in d.keys():  # [7,31,25]
+#     print(i)
+# ---------------------------------------------------------------------------------------
+# Q7) WAP TO ITERATE OVER A DICT AND GET ONE value AT A TIME BY USING values()
+
+# d = {7: "Fareed", 31 : "bhaiya", 25: "mom"}
+
+# for i in d.values():
+#     print(i)
+
+# -----------------------------------------------------------------------------------------
+
+# Q8) WAP TO ITERATE OVER A DICT AND GET both AT A TIME BY USING items()
+
+# d = {7: "Fareed", 31 : "bhaiya", 25: "mom"}
+
+# for i in d.items():
+#     print(i)
+
