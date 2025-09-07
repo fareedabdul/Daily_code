@@ -56,5 +56,19 @@
 #         print("GE")
 #     count += 1
 
-
+# Write a Python program that takes input from the user for the type of food item they want (pizza or burger).
+# If the item is pizza,
+# Ask the user for the size (large, medium, small).
+# Use nested if–else statements to check the size:
+# If "large" → print "Large Pizza – Rs. 300"
+# If "medium" → print "Medium Pizza – Rs. 200"
+# If "small" → print "Small Pizza – Rs. 100"
+# Any other input → print "Invalid size"
+# If the item is burger,
+# Ask the user if they want cheese.
+# Use nested if–else statements to check:
+# If "yes" → print "Cheese Burger – Rs. 150"
+# If "no" → print "Regular Burger – Rs. 100"
+# If the item is neither pizza nor burger, print "Invalid item".
+# 👉 Note: Use only if–else statements (no elif).
 
