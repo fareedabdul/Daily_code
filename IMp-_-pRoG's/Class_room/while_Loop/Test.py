@@ -43,3 +43,18 @@
 #         print(start)
 #     start += 1
 
+# 5. by using single while loop print good morning / good afternoon / good evening 
+
+# count = 1
+
+# while count <= 15:
+#     if count <= 5:
+#         print("GM")
+#     elif count <= 10:
+#         print("GAF")
+#     else:
+#         print("GE")
+#     count += 1
+
+
+
