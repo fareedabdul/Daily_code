@@ -72,3 +72,28 @@
 # If the item is neither pizza nor burger, print "Invalid item".
 # 👉 Note: Use only if–else statements (no elif).
 
+
+print("HEllo Welcome to python Restaurant")
+burger = 200
+order = input('What do you wanna have Today "Pizza" or "Burger" : ')
+
+match order:
+    case "Pizza":
+        size = int(input("Enter the size 1 To 15 split from 5: "))
+        if  size >= 10 and size <= 15:
+            print("Large pizza 899.rs")
+        elif size >=5 and size <=10:
+            print("Medium Pizza 599.rs")
+        elif size >= 1 and size <=5:
+            print("Small one 299.rs")
+    case "Burger":
+        cheese = input("Enter Burger with cheeze or not: ")
+        if cheese == "Yes" or cheese == "No":
+            if cheese == "Yes":
+                print(f"Burger with cheese {burger + 75}")
+            elif cheese == "No":
+                print(f"Burger without cheese {burger}")
+            else:
+                print("Select Burger Mama")
+    case _:
+        print("Inavlid Input please try to select the pizza or burger")
