@@ -7,7 +7,7 @@
 
 # Q) WAP TO REVERSE TUPLE AND PRINT ALTERNATE VALUE
 
-tup = (88,77,55,"Siddhu")
+# tup = (88,77,55,"Motu")
 
-for i in range(len(tup)-1,-1,-2):
-    print(tup[i])
+# for i in range(len(tup)-1,-1,-2):
+#     print(tup[i])
