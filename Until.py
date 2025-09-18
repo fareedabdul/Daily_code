@@ -17,3 +17,9 @@ print(new_fun(a=10,20))
 def demo(name,age):
     print(name,age)
 print(demo("fared",21))
+
+
+def demo(name,age):
+    return name,age
+res = demo("fared",21)
+print(res)  # output : ('fared', 21)
