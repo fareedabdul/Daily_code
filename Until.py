@@ -22,7 +22,7 @@ print(demo("fared",21))
 def demo(name,age):
     return name,age
 res = demo("fared",21)
-print(res)  # fared 21
+print(res) 
 
 
 #####################################################################################################################
