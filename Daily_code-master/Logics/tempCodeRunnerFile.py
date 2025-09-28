@@ -1,0 +1,1 @@
+len(var//2) okay 
