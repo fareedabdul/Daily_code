@@ -1,0 +1,45 @@
+Failed At Basics
+thinking coding is Belongs to me ? 
+Variables & Data Types
+
+
+2. Operators
+
+
+3. Conditional Statements (if-else)
+
+
+4. Loops (for, while)
+
+
+5. Functions (def, return, parameters)
+
+
+6. Strings & String Methods
+
+
+7. Lists, Tuples, Sets, Dictionaries
+
+
+8. List Comprehensions
+
+
+9. File Handling (read, write)
+
+
+10. Exception Handling (try-except)
+
+11. Modules & Packages (import, pip)
+
+
+12. Object-Oriented Programming (Classes, Objects, Inheritance, Polymorphism)
+
+
+13. Iterators & Generators
+
+
+14. Decorators
+
+
+15. Lambda Functions & Map/Filter/Reduce
+

@@ -1,0 +1,48 @@
+ Difference Between return vs print()
+Feature	return	print()
+📦 Purpose	Value ko function se bahar bhejna	Output ko terminal pe dikhana
+🧠 Use	Logic mein calculation pass karne ke liye	User ko output dikhane ke liye
+🧱 Inside Function	Function execution ko yahin pe rok deta hai	Execution continue karta hai
+🔁 Reusability	Value ko baad mein use kar sakte ho	Value ko reuse nahi kar sakte
+
+
+##################### My mistakes without print ye print nahi hoga bolrein 
+def greet(name):
+    return f"Hello {name}"
+
+greet("Fareed")
+
+
+
+########################################
+
+# Function returning multiple values and unpacking them
+def cal(num1, num2):
+    add = num1 + num2
+    sub = num1 - num2
+    mul = num1 * num2
+    div = num1 / num2
+    return (add, sub, mul, div)  # returns a tuple
+
+# Tuple unpacking into 4 variables
+result1, result2, result3, result4 = cal(1, 9)
+
+# Printing each result separately
+print("Addition:", result1)
+print("Subtraction:", result2)
+print("Multiplication:", result3)
+print("Division:", result4)
+
+
+#########################################################
+
+| 🔢 S.No | 🧠 Concept                 | ✅ Do This                                                    | ❌ Don’t Do This (Beginner Mistakes)                                    |
+| ------- | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| 1️⃣     | **Multiple Parameters**    | Use commas to separate params → `def fun(a, b)`              | Don’t mismatch argument count during call                              |
+| 2️⃣     | **Default Parameters**     | `def greet(name, city="Hyderabad")`                          | Don’t write `def greet(city="Hyd", name)` ❌                            |
+| 3️⃣     | **Return Multiple Values** | Use `return val1, val2` and unpack like `x, y = func()`      | Don’t forget to unpack → causes error                                  |
+| 4️⃣     | **Functions in Loops**     | Call function inside `for` loop → `for i in range(): fun(i)` | Don’t print inside both loop and function (double print)               |
+| 5️⃣     | **Return vs Print**        | Use `return` when you need to use value later                | Don’t use only `print()` if value is reused later                      |
+| 6️⃣     | **Naming**                 | Use lowercase\_snake\_case → `def add_marks()`               | Don’t name function like `AddMarks` or use numbers like `fun1` blindly |
+| 7️⃣     | **Parameter Order**        | Required params first, defaults after → `def fun(a, b=10)`   | Don’t do `def fun(a=10, b)` ❌                                          |
+| 8️⃣     | **Reusability**            | Use return to reuse result in other logic                    | Don’t write everything inside print                                    |
