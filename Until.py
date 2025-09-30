@@ -28,4 +28,4 @@ by# def new_fun(a,b)
 # #####################################################################################################################
 # # class and object 
 # Class :- Class is a blueprint or template that tells objects what actually object should perform or behave
-print("heLLOW")
+
