@@ -1,0 +1,5 @@
+object is a real world entity which is having its own attributes and property behaviour which describes about it or Each object has its own data (attributes) and can perform actions (methods).
+
+2.An object is an instance of a class.
+
+3.It represents a real-world entity created from a class blueprint.

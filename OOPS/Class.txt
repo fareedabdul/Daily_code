@@ -1,0 +1,2 @@
+Class : class is a Blueprint or template that defines how objects should look and behave 
+its like a blueprint or template to create objects >>>> 

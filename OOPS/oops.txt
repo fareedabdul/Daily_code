@@ -1,0 +1,11 @@
+Oops is way of writing programs using objects - real world entities like car, student, employee, etc....
+
+each object has :
+Data : Stored in variables(called attributes)
+Behavior : defined by functions(called methods)
+
+python is an object oriented language, meaning almost everything in python is an object..
+
+QUICK NOTE : OOPS makes programming like handling real world things, objects have their own data and actions, so code is cleaner and we can reuse and easier to manage and avoid repetitions..
+
+
