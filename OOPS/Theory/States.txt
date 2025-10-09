@@ -8,3 +8,48 @@ These are common for all objects created from the class.
 Stored in class memory.
 
 Accessed using class name, not object name.
+
+syntax----->>>> var_name = value   <<<<<<<---
+
+2️⃣ Specific State (Non-static / Instance-level states)
+
+These are specific to each object.
+
+Stored in object memory (every object has its own copy).
+
+Accessed using object reference.
+
+
+syntax :- object_address.var_name = value
+
+3️⃣ Constructor (__init__ method)
+
+A special method that runs automatically when an object is created.
+
+Used to initialize instance variables (object-specific states).
+
+interview Questions :--- 
+1) when will Constructor will executed ?
+ans- when the obj is created
+
+2) why we use Constructor ?
+for initializing the instance variable and objects specific states
+
+
+self ka obj ka address same hi rahega
+
+
+4️⃣ Self Keyword
+
+self parameter is a convention
+self is a reference or hold to the current object/ address.
+
+Used to access instance variables and methods inside the class.
+
+Without self, Python won’t know which object’s data you mean.
+
+when you define a method inside a class, you use self as the first parameter
+allows you to access or manipulate the attributes of a methods of the instance
+
+self is a special variable
+self is always pointing to the current object address / current instances
