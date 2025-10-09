@@ -1,0 +1,10 @@
+State / Property = data stored in class or object.
+there are classified into generic State and specific State
+
+1️⃣ Generic State (Static / Class-level states)
+
+These are common for all objects created from the class.
+
+Stored in class memory.
+
+Accessed using class name, not object name.
