@@ -1,0 +1,12 @@
+Any class consits 3 members in that 
+1. Variable
+2. method
+3. Constructor 
+
+
+1. Variable :- a Variable inside the class is called as class variable
+2. Method :- any function inside the class is called as method
+3. Constructor :- we are using special magic Method that is __int__ 
+
+Note :- for class every first word should be in upper case and rest should be in lower 
+
