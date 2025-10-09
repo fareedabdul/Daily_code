@@ -13,3 +13,16 @@ Lists all attributes and methods that an object has access to.
 obj.__dict__ → Shows Only Object Data
 
 Returns a dictionary containing only the object’s instance data
+
+
+
+-------------------********************************************-------------------------------------------------------------------------------------------------------
+
+In RAM all the members of a class will be stored in dictionary format (key value pairs)
+
+members name will be the key and its value will be the value
+
+when ever we create a object for each object separate memory allocation will be happen/ created and it will be pointing to class
+
+Each object will be having independently memory allocation
+
