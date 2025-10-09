@@ -1,0 +1,15 @@
+To check Class Data 
+syntax :- ClassName.__init__
+
+To Check Obj Data 
+Syntax :- dir(obj)
+
+----------------------------------------------------------------------------------
+dir(obj) → Shows Everything
+
+Lists all attributes and methods that an object has access to.
+
+--------------------------------------------------------------------------------
+obj.__dict__ → Shows Only Object Data
+
+Returns a dictionary containing only the object’s instance data
