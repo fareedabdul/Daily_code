@@ -16,5 +16,5 @@ items = bhai(2,"Activa 6G","same","biryani")
 print(items.bike)       # Activa 6G
 print(items.home)       # Same
 print(items.fav_dish)   # Biryani
-print(items.children)   # 2
+print(items.children)
 print(items.Mom_name)
