@@ -56,44 +56,77 @@
 # print(a)
 
 # Concatenate two multi-value data types (str, list, tuple, set, dict).
-s1 = "Hello"
-s2 = "world"
-print(s1 +s2)
+# string
+# s1 = "Hello"
+# s2 = "world"
+# print(s1 +s2)
 
-l1 = [1,2]
-l2 = [3,4]
-print(l1 + l2)
+# # list
+
+# l1 = [1,2]
+# l2 = [3,4]
+# print(l1 + l2)
+
+# # set
+# st1 = {1,3}
+# st2 = {5,6}
+# print(st1 | st2)
+
+# #dictionary
+# dt = {"name" : "Fareed" ,"age" :20}
+# dt2 = {"loc" : "hyd"}
+# print(dt | dt2)
 
 
-st1 = {1,3}
-st2 = {5,6}
-print(st1 | st2)
+# 11. Get the length of a collection.
+# a = "string"
+# print(len(a))
+
+# 12 Modify the middle value of a given collection.
+# a = "Hello mera Fareed"
+# a = a[0:5] + " to" + a[10:]
+# print(a)
+
+# lst = [11,22,44,44,55]
+# mv = len(lst)//2
+# lst[mv] = 33
+# print(lst)
+
+# 13 Concatenate a new string at the start of a given string.
+# s = "Hello "
+# print("Fareed" + s1)
+
+#14 Concatenate a new string at the end of a given string.
+
+# s = "Fareed"
+# print(s + " abdul")
 
 
-dt = {"name" : "Fareed" ,"age" :20}
-dt2 = {"loc" : "hyd"}
-print(dt | dt2)
+# 15. Concatenate a new string in the middle of a given string.
+# s = "i"
+# s1 = "india"
+# print(s + "love" + s1)
 
+#16. Modify a character in the middle of a given string.
+# a = "Hello mera Fareed"
+# a = a[0:5] + " to" + a[10:]
+# print(a)
 
+#17. Modify the sequence of characters in a given string.
+# s = "Python"
+# # Reverse the sequence
+# new_s = s[::-1]
+# print(new_s)  # Output: "nohtyP"
 
+#18.  Replace an old character with a new character in a given string.
+# s = "Duck"
+# s = "L" + s[1:]
+# print(s)
 
-# Get the length of a collection.
-
-# Modify the middle value of a given collection.
-
-# Concatenate a new string at the start of a given string.
-
-# Concatenate a new string at the end of a given string.
-
-# Concatenate a new string in the middle of a given string.
-
-# Modify a character in the middle of a given string.
-
-# Modify the sequence of characters in a given string.
-
-# Replace an old character with a new character in a given string.
-
-# Delete a specific character from a string.
+# 19 Delete a specific character from a string.
+# s = "Fareed is bad boy"
+# s = s[0:10] + s[14:]
+# print(s)
 
 # Delete a sequence of characters from a string.
 
