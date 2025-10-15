@@ -124,44 +124,103 @@
 # print(s)
 
 # 19 Delete a specific character from a string.
+# s = "Fareed"
+# s = s[:1] + s[2:]
+# print(s)
+
+# 20.Delete a sequence of characters from a string.
 # s = "Fareed is bad boy"
 # s = s[0:10] + s[14:]
 # print(s)
 
-# Delete a sequence of characters from a string.
+# 21. Concatenate a new string at a specific position in a string.
+# a = "Hello mera Fareed"
+# a = a[0:5] + " to" + a[10:]
+# print(a)
 
-# Concatenate a new string at a specific position in a string.
 
-# Concatenate a new value at the start of a list.
+#22.  Concatenate a new value at the start of a list.
 
-# Concatenate a new value at the end of a list.
+# lst = [1,2,3]
+# lst = [0] + lst
+# print(lst)
 
-# Concatenate a new value in the middle of a list.
+#23.  Concatenate a new value at the end of a list.
 
-# Concatenate a new value at a specific position in a list.
+# lst = [1,2,3]
+# lst = lst + [4]
+# print(lst)
 
-# Modify a value at a specific position in a list.
+#24. Concatenate a new value in the middle of a list.
 
-# Modify a value at the start of a list.
+# lst = [1,2,3]
+# lst2 = [5,6,7]
+# print(lst + [4] + lst2)
 
-# Modify a value at the end of a list.
+# 25.  Concatenate a new value at a specific position in a list.
+# lst = [1,2,3]
+# lst2 = [5,6,7]
+# print(lst + [555] + lst2)
 
-# Modify a value in the middle of a list.
+# 26Modify a value at a specific position in a list.
+# lst = [22,33,55]
+# lst[1] = 66
+# print(lst)
 
-# Modify the first 4 values of a list.
+# 27. Modify a value at the start of a list.
+# lst = [10,20,30,40]
+# lst[0] = 111
+# print(lst)
 
-# Modify the sequence of values in a list.
+# 28. Modify a value at the end of a list.
+# lst = [10,20,30,40]
+# lst[3] = 777
+# print(lst)
 
-# Delete a value at a specific position in a list.
+# 29. Modify a value in the middle of a list.
+# lst = [10,20,30,40,50]
+# lst[3] = 777
+# print(lst)
+
+#30.  Modify the first 4 values of a list.
+
+# lst = [1,2,3,4,55,66]
+# lst[:4] = [777,666,333]
+# print(lst)
+
+# 31. Modify the sequence of values in a list.
+# lst = [1,2,3,4,5]
+# lst = lst[::-1]
+# print(lst)
+
+# 32. Delete a value at a specific position in a list.
+
+# lst = [11,22,33,44,55]
+# lst.pop(2)
+# print(lst)
 
 # Delete a value from the end of a list.
+# lst = [11,22,33,44,55]
+# lst.pop()
+# print(lst)
 
 # Delete a value from the start of a list.
+# lst = [11,22,33,44,55]
+# lst.remove(11)
+# print(lst)
 
 # Delete a value from the middle of a list.
-
+# lst = [11,22,33,44,55]
+# lst.remove(33)
+# print(lst)
 # Concatenate a value at the start of a tuple.
-
+# tup1 = (4,5,6)
+# print((55,66)+ tup1)
 # Concatenate a value in the middle of a tuple.
+# tup1 = (1,2,3)
+# tup2 = (5,6,7)
+# print(tup1 + (4,) + tup2)
 
-# Concatenate a value at the end of a tuple.
+# # Concatenate a value at the end of a tuple.
+# tup1 = (1,2,3)
+# print(tup1 + (4,))
