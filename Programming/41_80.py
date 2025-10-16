@@ -48,3 +48,55 @@
 #     print("condition is True")
 # else:
 #     print("False")
+
+# 76. WAE to check the given number is present between 60 to 130 and the number should be divisible by 3 and 4 and last digit should be less than 9 
+
+# num = int(input("Enter the num: "))
+# if num >= 60 and num <= 130 and num % 3 == 0 and num % 4 ==0 and num % 10 < 9:
+#     print("True")
+# else:
+#     print("False")
+    
+# 77.  WAE to check the given number is even or less than 25 
+
+# num = int(input("Enter the num: "))
+# if num % 2 == 0 and num < 25:
+#     print('True')
+# else:
+#     print("False")
+
+# 78. WAE to check the given number is even or greater than 25
+
+# num = int(input("Enter the num: "))
+# if num % 2 == 0 and num > 25:
+#     print('True')
+# else:
+#     print("False")
+
+# 79. WAE to check the given number is divisible by 3 or 5 
+
+# num = int(input("Enter the num: "))
+# if num % 2 == 0 and num % 5 == 0:
+#     print('True')
+# else:
+#     print("False")
+
+
+# 80. WAE to check the given number is not an even number
+
+# num = int(input("Enter the num: "))
+# if num % 2 != 0 :
+#     print('True')
+# else:
+#     print("False")
+
+# 80. WAE to check the given number is not an odd number
+
+# num = int(input("Enter the num: "))
+# if num % 2 != 1 :
+#     print('True')
+# else:
+#     print("False")
+
+
+ 
