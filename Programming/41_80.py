@@ -98,5 +98,9 @@
 # else:
 #     print("False")
 
-
- 
+#81 . WAE to check the given number is not an odd number and num is divisible by 6
+ # num = int(input("Enter the num: "))
+# if num % 2 != 1  and num % 6 ==0:
+#     print('True')
+# else:
+#     print("False")
