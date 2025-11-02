@@ -97,12 +97,30 @@
 #     if s[i] not in "aeiouAEIOU":
 #         print(f" {s[i]} is values and there positions are {i}")
 
-n = int(input("Enter the perfect number: "))
-sum_of_div = 0
-for i in range(1,n):
-    if n % i == 0:
-        sum_of_div += i
-if n == sum_of_div:
-    print("Its a perfect Number")
-else:
-    print("its not a perfect Number")
+# n = int(input("Enter the perfect number: "))
+# sum_of_div = 0
+# for i in range(1,n):
+#     if n % i == 0:
+#         sum_of_div += i
+# if n == sum_of_div:
+#     print("Its a perfect Number")
+# else:
+#     print("its not a perfect Number")
+
+
+# a = int(input("Enter a: "))
+# b = int(input("Enter b: "))
+# c = int(input("Enter c: "))
+
+# # Step 1: Find the largest side
+# largest = max(a, b, c)
+
+# # Step 2: Check right angle using Pythagoras theorem
+# if largest == a and a**2 == b**2 + c**2:
+#     print("It's a right-angled triangle.")
+# elif largest == b and b**2 == a**2 + c**2:
+#     print("It's a right-angled triangle.")
+# elif largest == c and c**2 == a**2 + b**2:
+#     print("It's a right-angled triangle.")
+# else:
+#     print("It's NOT a right-angled triangle.")
