@@ -13,3 +13,14 @@
 # # print(dir(obj1))
 
 # print(obj1.__dict__)
+
+
+class data:
+    a = 10
+    b = 20
+obj1 = data()
+obj2 = data()
+print(obj2.a)
+print(obj1.a)
+
+class 
