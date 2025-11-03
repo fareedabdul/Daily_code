@@ -149,13 +149,23 @@
 #     if n % i ==0:
 #         print(i)
 
-n = int(input("Enter the number to chech if a number is perfect or not:"))
-perf = 0
-if n % 2 ==0:
-    for i in range(1,n):
-        if n % i == 0:
-            perf += i
-if n == perf:
-    print("its a perfect number and even")
-else:
-    print("sorry mama")
+# n = int(input("Enter the number to chech if a number is perfect or not:"))
+# perf = 0
+# if n % 2 ==0:
+#     for i in range(1,n):
+#         if n % i == 0:
+#             perf += i
+# if n == perf:
+#     print("its a perfect number and even")
+# else:
+#     print("sorry mama")
+
+# num = int(input("Enter the number: "))
+# sum = 0
+# for i in str(num):
+#     sum += int(i) ** 3
+# if num == sum:
+#     print("Amstrong")
+# else:
+#     print('Not a amstrong')
+    
