@@ -35,24 +35,24 @@
 # print(obj2.a)
 # print(obj2.b) 
 
-class SampleData:
-    a = 10
-    b = 20 
-obj1 = SampleData()
-obj2 = SampleData()
+# class SampleData:
+#     a = 10
+#     b = 20 
+# obj1 = SampleData()
+# obj2 = SampleData()
 
+# # print(SampleData.a)
+# # print(obj1.a)
+# # print(obj2.a)
+# SampleData.a = 500
 # print(SampleData.a)
 # print(obj1.a)
 # print(obj2.a)
-SampleData.a = 500
-print(SampleData.a)
-print(obj1.a)
-print(obj2.a)
-obj1.a = 777
-print(SampleData.a)
-print(obj1.a)
-print(obj2.a)
-SampleData.a = 800
+# obj1.a = 777
+# print(SampleData.a)
+# print(obj1.a)
+# print(obj2.a)
+# SampleData.a = 800
 
 
 
