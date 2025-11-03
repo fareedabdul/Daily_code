@@ -1,6 +1,12 @@
-li_data = eval(input("Enter the number:"))
-et= []
-for i in li_data:
-    if type(i) == int and i % 5 == 0 and 99 < i < 1000:
-        et.append(i)
-print(et)
+
+#     print("It's NOT a right-angled triangle.")
+
+# year = int(input('enter the century and leap: '))
+# if year % 100 == 0:
+#     if year % 400 == 0:
+#         print("its a century year also a leap year")
+#     else:
+#         print("its a century year par not a leap year")
+# elif year % 4 == 0:
+#     print("its a leap year ")
+# else:

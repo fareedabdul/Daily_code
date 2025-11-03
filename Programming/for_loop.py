@@ -124,3 +124,38 @@
 #     print("It's a right-angled triangle.")
 # else:
 #     print("It's NOT a right-angled triangle.")
+
+# year = int(input('enter the century and leap: '))
+# if year % 100 == 0:
+#     if year % 400 == 0:
+#         print("its a century year also a leap year")
+#     else:
+#         print("its a century year par not a leap year")
+# elif year % 4 == 0:
+#     print("its a leap year ")
+# else:
+#     print("not a leap year")
+
+
+# n = int(input("Enter the number: "))
+# fact = 1
+# for i in range(1,n +1):
+#     fact *= i
+# print(fact)
+    
+    
+# n = int(input("Enter the number: "))
+# for i in range(1,n+1):
+#     if n % i ==0:
+#         print(i)
+
+n = int(input("Enter the number to chech if a number is perfect or not:"))
+perf = 0
+if n % 2 ==0:
+    for i in range(1,n):
+        if n % i == 0:
+            perf += i
+if n == perf:
+    print("its a perfect number and even")
+else:
+    print("sorry mama")
