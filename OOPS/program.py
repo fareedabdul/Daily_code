@@ -113,5 +113,81 @@
 # print(dt)
    
 
-inp = input("Enter the input: ").split()
-print(inp)
+# inp = input("Enter the input: ").split()
+# print(inp)
+
+# class cls_name:
+#     school_name = "Loyola"
+#     loc = "Hyderabad"
+#     subject = "PFS"
+#     trainer = "Monty"
+
+# obj1 = cls_name()
+# print(obj1.school_name)
+
+# class math:
+#     @staticmethod
+#     def add(a,b):
+#         return a + b
+    
+# print(math.add(10,20))
+
+# class student:
+#     school_name = "Lola school"
+    
+#     def __init__(self,name):
+#         self.name = name
+        
+#     @classmethod
+#     def change_school(cls,new_name):
+#         cls.school_name = new_name
+# print(student.school_name)
+# student.change_school("Loyola")
+# print(student.school_name)
+
+
+# class Student:
+#     name = "Fareed"
+#     marks = 90
+    
+#     def display(self):
+#         print(f"name is {Student.name} and marks are {Student.marks}")
+# obj1 = Student()
+# obj1.display()
+        
+    
+# class parent:
+#     sub = "python"
+#     institute = "qsp"
+#     batch = "a21"
+# class child(parent):
+#     def __init__(self,name):
+#         self.name = name
+#     def display(self):
+#         print(f"std_name: {self.name} sub: {self.sub} and institute : {self.institute} and batch is {self.batch}")
+# obj1 = child("Fareed")
+# obj1.display()
+
+###########################################################################################
+# class Parent:
+#     def __init__(self):
+#         print("Parent class constructor")
+# class child(Parent):
+#     def __init__(self):
+#         super().__init__()
+#         print("its a child class")
+# obj1 = child()
+    
+#################################################################################################
+
+#method overriding
+# class vehicle:
+#     def start(self):
+#         print("vehicle started")
+# class car(vehicle):
+#     def start(self):
+#         super().start()
+#         print("car started")
+# obj1 = car()
+# obj1.start()
+        

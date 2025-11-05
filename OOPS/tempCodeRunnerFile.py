@@ -1,2 +1,2 @@
 
-print(obj1.a)
+        print("vehicle star
