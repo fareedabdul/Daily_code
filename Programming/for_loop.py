@@ -168,4 +168,13 @@
 #     print("Amstrong")
 # else:
 #     print('Not a amstrong')
-    
+
+# inp = input("Enter anything: ")      # user gives any string or mix
+# letter = input("Enter letter to check: ")
+
+# count = 0
+# for ch in inp:                       # har character check karo
+#     if ch == letter:
+#         count += 1
+
+# print(f"'{letter}' appears {count} times.")
