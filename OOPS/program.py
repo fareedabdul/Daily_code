@@ -55,5 +55,19 @@
 # SampleData.a = 800
 
 
+# from functools import wraps
+# def deco(func):
+#     def wrapper(*args,**kwargs):
+#         print("Hello Start")
+#         func(*args,**kwargs)
+#         print("Ended") 
+#     return wrapper
+
+
+# @deco
+# def basic():
+#     print("Hello world")
+# basic()
+
 
     
