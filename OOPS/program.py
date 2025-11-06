@@ -191,3 +191,24 @@
 # obj1 = car()
 # obj1.start()
         
+        
+# def deco_name1(func):
+#     def wrapper(*args,**kwargs):
+#         print("d1 start")
+#         func(*args,**kwargs) 
+#         print("d1 end")
+#     return wrapper
+# def deco_name2(func):
+#     def wrapper(*args,**kwargs):
+#         print("d2 start")
+#         func(*args,**kwargs)
+#         print("d2 end")
+#     return wrapper
+
+# @deco_name1
+# @deco_name2
+# def user():
+#     print("Fareed as a user")
+# user()
+
+    
