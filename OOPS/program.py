@@ -212,3 +212,62 @@
 # user()
 
     
+    
+# class A:
+#     def show(self):
+#         print("Class A")
+
+# class B(A):
+#     def show(self):
+#         print("Class B")
+
+# class C(B):
+#     pass
+
+# obj = C()
+# obj.show()
+
+
+# class A:
+#     def __init__(self):
+#         print("A")
+
+# class B(A):
+#     def __init__(self):
+#         print("B")
+#         super().__init__()
+
+# class C(B):
+#     def __init__(self):
+#         print("C")
+#         super().__init__()
+
+# obj = C()
+
+
+# class Person:
+#     per = "normal person rehte"
+#     def display(self):
+#         print("Mein abhi just normal person hoon")
+# class Employee(Person):
+#     c = "employee"
+#     def display(self):
+#         print("Mein abhi just Employee hoon")
+# class Manager(Employee):
+#     def display(self):
+#         print(f"manager hoon sala mere niche {self.c} and {self.per} ")
+# obj1 = Manager()
+# obj1.display()
+
+# class grandparent:
+#     jagah = "10acres"
+# class parent:
+#     ghar = "5bhk"
+# class son(grandparent,parent):
+#     def display(self):
+#         print(f"mekhu nana ne {self.jagah} and mujhe mummy ne {self.ghar}")
+# obj1 = son()
+# obj1.display()
+        
+        
+    
