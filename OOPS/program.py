@@ -268,6 +268,54 @@
 #         print(f"mekhu nana ne {self.jagah} and mujhe mummy ne {self.ghar}")
 # obj1 = son()
 # obj1.display()
+
+
+
+# class Director:
+#     director = "S.S RAJAMOULI"
+        
+# class movie(Director):
+#     movie_name = "bahubali "
+#     imdb = "9.5"
+
+#     def __init__(self,hero1,hero2,heroine):
+#         self.hero1 = hero1
+#         self.hero2 = hero2
+#         self.heroine = heroine
+#     def movie_data(self):
+#         print(
+#             f"DIRECTOR NAME: {self.director}\n"
+#     f"MOVIE NAME  : {self.movie_name}\n"
+#     f"MOVIE HERO 1: {self.hero1}\n"
+#     f"MOVIE HERO 2: {self.hero2}\n"
+#     f"IMDB RATING : {self.imdb}"
+# )
+#         print()
+  
+# class movie2(Director):
+#     movie_name = "RRR "
+#     imdb = "9.8"
+
+#     def __init__(self,hero1,hero2,heroine):
+#         self.hero1 = hero1
+#         self.hero2 = hero2
+#         self.heroine = heroine
+#     def movie_data(self):
+#         print(
+            
+#     f"DIRECTOR NAME: {self.director}\n"
+#     f"MOVIE NAME  : {self.movie_name}\n"
+#     f"MOVIE HERO 1: {self.hero1}\n"
+#     f"MOVIE HERO 2: {self.hero2}\n"
+#     f"IMDB RATING : {self.imdb}"
+#                 )
+# m1 = movie("prabhas","rana","anuska")
+# m1.movie_data()
+
+
+# m2 = movie2("NTR","RAM","alia bhaat")
+# m2.movie_data()
+        
         
         
     
