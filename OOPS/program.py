@@ -317,5 +317,12 @@
 # m2.movie_data()
         
         
-        
-    
+class Test:
+    def show(self, a):
+        print(a)
+
+    def show(self, a, b):
+        print(a, b)
+
+obj = Test()
+obj.show(10)
