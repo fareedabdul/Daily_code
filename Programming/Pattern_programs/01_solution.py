@@ -39,3 +39,16 @@
 #             print(" ",end = " ")
 #     print()
 
+print(chr(ord("A") +32))
+
+# n = 5
+# for i in range(1,n+1):
+#     char = "A"
+#     for j in range(1,n+1):
+#         if i==j or i < j:
+#             print(char,end=" ")
+#             char = chr(ord(char)+1)
+#         else:
+#             print(" ",end=" ")
+#     print()
+            
