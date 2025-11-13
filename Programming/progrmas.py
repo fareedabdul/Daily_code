@@ -29,5 +29,6 @@ while i < data:
     if data % i == 0:
         print("Not a prime re")
         break
-    else:
+    i += 1
+else:
      print("Hmmm Its a prime Number")
