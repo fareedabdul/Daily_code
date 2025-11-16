@@ -54,5 +54,15 @@
 #     if not ("A"<= ch <= "Z" or "a" <= ch <= "z" or "0" <= ch <= "9"):
 #         print(ch)
         
-        
-        
+
+start = 1 
+end = 10
+while start <= end:
+    if start == 3 or start == 8:
+        start+=1
+        continue
+  
+    print(start)
+    start += 1
+           
+
