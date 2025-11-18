@@ -279,3 +279,81 @@
 
 
 
+# Q7 (Tricky).
+
+# Given:
+
+# word = "HELLO123"
+
+
+# Print only alphabets using range + len(word)
+# (NO direct ch.isalpha() allowed).
+
+# Hint:
+# "A" <= ch <= "Z" or "a" <= ch <= "z"
+
+# word = "HELLO123"
+
+# for ch in word:
+#     if "A" <= ch <= "Z" or "a" <= ch <= "z":
+#         print(ch,end="")
+
+
+# Q8 (Brain-twist).
+
+# Given:
+
+# marks = [45, 67, 89, 90, 55]
+
+
+# Print:
+
+# Index: 0 → 45
+# Index: 1 → 67
+# ...
+
+
+# 👉 Use range(len(marks))
+# 👉 No direct “for m in marks”.
+
+
+# marks = [45, 67, 89, 90, 55]
+
+# for mark in range(len(marks)):
+#     print(f"{mark}->{marks[mark]} ")
+
+
+# Q9 (Hard).
+
+# Given:
+
+# s = "ab#c$12D"
+
+
+# Print only special characters using indexing and ASCII logic.
+
+# Hint:
+# Special = not A–Z, not a–z, not 0–9.
+
+# s = "ab#c$12D"
+
+# for ch in s:
+#     if not (("A" <= ch <= "Z") or ("a" <= ch <= "z") or ("0" <= ch <= "9")):
+#         print(ch)
+
+
+# Q10 (Ultimate).
+# Given:
+# data = ["Ram", "Sham", "Om"]
+# Print:
+# Name: Ram → Length: 3
+# Name: Sham → Length: 4
+# Name: Om → Length: 2
+
+data = ["Ram", "Sham", "Om"]
+
+for i in range(len(data)):
+    print(f"{data[i]} -> Length: {len(data[i])}")
+    
+
+
