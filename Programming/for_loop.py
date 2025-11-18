@@ -208,3 +208,18 @@
 
 
 # Print only the last 2 elements using range + len(nums).
+
+# nums = [10, 20, 30, 40]
+# for num in range(2,len(nums)):
+#     print(nums[num])
+    
+    
+# Q3.
+
+# Without using reverse(),
+# reverse a string:
+
+# name = "Python"
+
+# for i in range(len(name)-1,-1,-1):
+#     print(name[i],end="")
