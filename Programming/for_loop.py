@@ -178,3 +178,33 @@
 #         count += 1
 
 # print(f"'{letter}' appears {count} times.")
+
+
+
+
+# Q1.
+
+# Given:
+
+# s = "Fareed"
+
+
+# Without using for ch in s, print each character with its index like:
+
+# 0 F
+# 1 a
+# 2 r
+...
+
+# s = "Fareed"
+# for str in range(len(s)):
+#     print(str,s[str])
+
+#############################################################################################
+
+# Given a list:
+
+# nums = [10, 20, 30, 40]
+
+
+# Print only the last 2 elements using range + len(nums).
