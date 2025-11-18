@@ -223,3 +223,59 @@
 
 # for i in range(len(name)-1,-1,-1):
 #     print(name[i],end="")
+
+
+# Q4.
+# items = ["apple", "banana", "kiwi"]
+
+
+# Print all characters of all strings (nested loop) WITHOUT using:
+
+# enumerate
+
+# direct index access on outer loop
+
+# 👉 Use:
+
+# for i in range(len(items)):
+#     # nested loop...
+
+# items = ["apple", "banana", "kiwi"]
+
+# for ch in items:
+#     for i in range(len(ch)):
+#         print(ch[i],end="")
+
+# Q5. (Dangerous)
+
+# Given a number:
+# n = 321
+# Print output:
+# 3
+# 2
+# 1
+# 👉 Condition: Convert to string and use len().
+
+# n = 321
+
+# for i in str(n):
+#     print(i)
+
+
+# Q6.
+
+# Given:
+# lst = [5, 10, 15, 20, 25]
+# Print only odd indexed values using range().
+# Expected:
+# 10
+# 20
+
+
+# lst = [5, 10, 15, 20, 25]
+
+# for i in range(1,len(lst),2):
+#     print(lst[i])  
+
+
+
