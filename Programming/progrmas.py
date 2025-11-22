@@ -55,14 +55,37 @@
 #         print(ch)
         
 
-start = 1 
-end = 10
-while start <= end:
-    if start == 3 or start == 8:
-        start+=1
-        continue
+# start = 1 
+# end = 10
+# while start <= end:
+#     if start == 3 or start == 8:
+#         start+=1
+#         continue
   
-    print(start)
-    start += 1
+#     print(start)
+#     start += 1
            
+           
+# Linear Search Program
+
+# Function to perform linear search
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i   # return the index if found
+    return -1  # return -1 if not found
+
+# Taking input
+numbers = [10, 25, 30, 45, 60, 75]
+target_value = 45
+
+# Calling the function
+result = linear_search(numbers, target_value)
+
+# Output
+if result != -1:
+    print(f"Element found at index {result}")
+else:
+    print("Element not found")
+
 
