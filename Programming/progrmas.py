@@ -69,23 +69,24 @@
 # Linear Search Program
 
 # Function to perform linear search
-def linear_search(arr, target):
-    for i in range(len(arr)):
-        if arr[i] == target:
-            return i   # return the index if found
-    return -1  # return -1 if not found
+# def linear_search(arr, target):
+#     for i in range(len(arr)):
+#         if arr[i] == target:
+#             return i   # return the index if found
+#     return -1  # return -1 if not found
 
-# Taking input
-numbers = [10, 25, 30, 45, 60, 75]
-target_value = 45
+# # Taking input
+# numbers = [10, 25, 30, 45, 60, 75]
+# target_value = 45
 
-# Calling the function
-result = linear_search(numbers, target_value)
+# # Calling the function
+# result = linear_search(numbers, target_value)
 
-# Output
-if result != -1:
-    print(f"Element found at index {result}")
-else:
-    print("Element not found")
+# # Output
+# if result != -1:
+#     print(f"Element found at index {result}")
+# else:
+#     print("Element not found")
 
 
+print("9heed khan")
