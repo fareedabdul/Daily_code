@@ -14,3 +14,18 @@
 # t1 = Qsp("Fareed",21,"python","single")
 # print(t1)
 # print(t1.trainer_name,t1.trainer_age,t1.trainer_subject,t1.status_marriage)
+
+
+# try:
+#     x = int(input("Enter your number: "))
+#     result = 10 / x
+#     print(result)
+# except ZeroDivisionError:
+#     print("you cant divide by zero")
+# except ValueError:
+#     print("plese enter valid number")
+# finally:
+#     print("always run hotu mein ")
+
+
+print("hello world")
