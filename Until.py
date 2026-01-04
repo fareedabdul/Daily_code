@@ -29,3 +29,6 @@
 # # class and object 
 # Class :- Class is a blueprint or template that tells objects what actually object should perform or behave
 # print("heLLOW")
+
+
+print("Hello new Year 2026")
