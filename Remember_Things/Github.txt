@@ -2,4 +2,6 @@ git add . && git commit -m "Daily update" && git fetch origin && git rebase orig
 
 -------------------------------------------------------------------------------------------------------------
 
-    git add .; git commit -m "Force push local files"; git push -f origin master
+git add .; git commit -m "Force push local files"; git push -f origin master
+git add .; git commit -m "Force push local files"; git push -f origin master
+
