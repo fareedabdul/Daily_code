@@ -93,3 +93,61 @@
 
 
 
+# ! find is used to find the particular index of the string and for its only first occurence
+
+# normal = "Fareed is a Good boy ???"
+
+# # var.stringmethods()
+
+# s = normal.find("o")
+
+# print(s)
+
+
+# ! index is to find the exact position of the charcter as a number 
+
+# print("helle".index("e")) #1
+
+# name = False
+# print(name)
+
+# normal = "Fareed is a Good boy ???"
+
+# print(normal.count("o"))
+
+# print("python".startswith("py")) # boolean values - true or false
+
+# print("python.py".endswith("p"))
+
+# print("ab".isdigit())
+
+# print("abc".isalpha())
+
+# print("abc123".isalnum())
+
+# print("   ".isspace())
+
+# print("hi".center(6,"-"))
+
+
+#!  if condition:
+#!  # RUNS IF ONLY TRUE 
+#! else:
+#! # RUNS IF ONLY FALSE
+
+
+# nums = 23
+
+# if nums < 0:
+#     print("he is adult with no job")
+# else:
+#     print("he is not a adult")
+
+n = 12
+
+if n % 2 != 0:
+    print("True")
+else:
+    print("True")
+    
+    
